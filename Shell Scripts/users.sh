@@ -2,6 +2,11 @@
 #Autor: Abel Mateos Cotrina
 #Fecha: 12-2-26
 
+if [ $USER != root ]; then
+	echo "Error, solo root puede ejecutar este script."
+	exit
+fi
+
 if [ $# -lt 1 ]; then
 	par=1000
 else
