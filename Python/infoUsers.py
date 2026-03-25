@@ -51,3 +51,6 @@ while True:
         case "4":
             print("Saliendo...")
             exit()
+
+        case _:
+            print("Error. Opción no válida.")
