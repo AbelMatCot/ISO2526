@@ -3,14 +3,11 @@
 # Fecha: 24-3-2026
 
 import os
-
 import cpuinfo
 
-"""
 if os.getuid() != "0":
     print("Error. Este script solo puede ser ejecutado como root.")
     exit()
-"""
 
 while True:
     print("========================================")
